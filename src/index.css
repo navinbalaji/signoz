@@ -1,0 +1,88 @@
+.dialog_container {
+  width: 300px;
+  height: 500px;
+  border: 1px solid black;
+}
+.dialog_strikethrough {
+  text-decoration: line-through;
+}
+.task-container {
+  position: absolute;
+  width: 350px;
+  background: #111;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  user-select: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.setup-later {
+  background: none;
+  border: none;
+  color: #bbb;
+  cursor: pointer;
+}
+
+.task-list {
+  margin-top: 15px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  background: #222;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.task-content {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.task-item h3 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+button {
+  background: #3366ff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+.options {
+  cursor: pointer;
+  color: #bbb;
+}
+
+.completed-section {
+  margin-top: 15px;
+}
+
+.completed-task {
+  display: flex;
+  align-items: center;
+  color: #4caf50;
+  margin-top: 5px;
+}
+
+.completed-icon {
+  margin-right: 5px;
+}
